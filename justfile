@@ -15,7 +15,7 @@ watch:
     @echo "Watching slides"
     typst w slides.typ
 
-# Compile and Run the C code
-c:
+# Compile the C code in "code/"
+check:
     @echo "Compiling and Running the C code"
-    @echo "TODO!"
+    ./compile-all.sh
